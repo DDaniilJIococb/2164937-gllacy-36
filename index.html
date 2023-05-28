@@ -8,30 +8,56 @@
     <header class="main-header">
       <nav class="main-navigation">
        <ul class="navigayion-list">
-        <li>Каталог</li>
-        <li>Доставка и оплата</li>
-        <li>О компании</li>
-       </ul>
+        <li class="navigayion-item">
+          <a class="navigayion-link" href="">Каталог</a>
+        </li>
+        <li class="navigayion-item">
+          <a class="navigayion-link" href="">Доставка и оплата</a>
+        </li>
+        <li class="navigayion-item">
+          <a class="navigayion-link" href="">О компании</a>
+        </li>
+       </ul class="navigayion-list navigayion-user">
        <ul>
-        <li>+7 800 555-86-28</li>
-        <li>Поиск</li>
-        <li>Вход</li>
-        <li>Корзина</li>
+        <li class="navigayion-item">
+          <tel>+7 800 555-86-28</tel>
+        </li>
+        <li>
+          <a class="navigayion-link" href=""><span class="visually-hidden">Поиск</span></a>
+        </li>
+        <li class="navigayion-item">
+          <a class="navigayion-link" href="">Вход</a>
+        </li>
+        <li class="navigayion-item">
+          <a class="navigayion-link" href=""><span class="visually-hidden">Корзина</span></a>
+        </li>
        </ul>
       </nav>
     </header>
-    <main>
+    <main class="main-index">
+      <h1 class="visually-hidden">Глейси</h1>
+      <section>
+        <h2 class="visually-hidden">Примеры мороженого с рожком</h2>
+        <img class="slider-image" src="#" alt="Примеры работ." >
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+        </button>
+        <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Следующее фото</span>
+        </button>
+      </section>
      <section class="main-gifts">
-      <h2>Заказывайте мороженое и получайте подарки!</h2>
-      <ul>
-        <li>
-          <title>Малинка даром!</title>
-          <p>При покупке 2 кг любого фруктового<br> мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>
+      <h2 class="visually-hidden">Подарки</h2>
+      <h3>Заказывайте мороженое и получайте подарки!</h2>
+      <ul class="gifts-list">
+        <li class="gifts-item">
+          <h4 class="gifts-tittle">Малинка даром!</h4>
+          <p class="gifts-description">При покупке 2 кг любого фруктового<br> мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>
           <button>Хочу подарок</button>
         </li>
         <li>
-          <title>Маршмеллоу даром!</title>
-          <p>При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
+          <h4 class="gifts-tittle">Маршмеллоу даром!</h4>
+          <p class="gifts-description">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
           <button>Хочу подарок</button>
         </li>
       </ul>
@@ -40,29 +66,28 @@
        <h2>Попробуйте самые популярные вкусы нашего мороженого</h2>
       <ul>
         <li>
-          <title>Малинка</title>
-          <text>Сливочное мороженое с малиновым джемом</text>
-          <p>310 ₽/кг</p>
+          <h3>Малинка</h3>
+          <p>Сливочное мороженое с малиновым джемом</p>
+          <b>310 ₽/кг</b>
           <button>В корзину!</button>
         </li>
         <li>
-          <title>Фисташка</title>
-          <text>Фисташковый пломбир с кусочками шоколада</text>
-          <p>340 ₽/кг</p>
+          <h3>Фисташка</h3>
+          <p>Фисташковый пломбир с кусочками шоколада</p>
+          <b>340 ₽/кг</b>
           <button>В корзину!</button>
         </li>
         <li>
-          <title>Черника</title>
-          <text>Крем-брюле
-            с черничным джемом</text>
-          <p>330 ₽/кг</p>
+          <h3>Черника</h3>
+          <p>Крем-брюле с черничным джемом</p>
+          <b>330 ₽/кг</b>
           <button>В корзину!</button>
         </li>
         <li>
-          <title>Бабл-гам</title>
-          <text>Ванильный пломбир
-            со сладкой посыпкой</text>
-          <p>320 ₽/кг</p>
+          <h3>Бабл-гам</h3>
+          <p>Ванильный пломбир
+            со сладкой посыпкой</p>
+          <b>320 ₽/кг</b>
           <button>В корзину!</button>
         </li>
       </ul>
@@ -106,9 +131,9 @@
         </section>
         <section class="main-contacts">
           <div>
-            <h4>Адрес главного офиса и офлайн-магазина:</h4>
+            <h2>Адрес главного офиса и офлайн-магазина:</h4>
             <p>наб. реки Карповки, 5 лит П, Санкт-Петербург</p>
-            <h4>Для заказов по телефону:</h4>
+            <h2>Для заказов по телефону:</h4>
             <p>+7 (812) 812-12-12<br>(с 10 до 20 ежедневно)</p>
           </div>
         </section>
@@ -134,6 +159,7 @@
         </ul>
           <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <a class="footer-logo-HTML" href="https://htmlacademy.ru"></a>
+          <text>Сделано в .html academy © 2021</text>
           </section>
     </footer>
   </body>
